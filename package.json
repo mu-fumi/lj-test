@@ -10,7 +10,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "start"
+      "pre-commit": "eslint --ext .js,.vue src && node ./src/index.js"
     }
   },
   "dependencies": {
