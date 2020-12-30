@@ -5,9 +5,12 @@
   "repository": "https://github.com/mu-fumi/lj-test.git",
   "author": "xh <1017182993@qq.com>",
   "license": "MIT",
+  "scripts": {
+      "start": "node ./src/index.js"
+  },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint --ext .js,.vue src && node ./src/index.js"
+      "pre-commit": "start"
     }
   },
   "dependencies": {
