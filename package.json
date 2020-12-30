@@ -1,0 +1,17 @@
+{
+  "name": "lj-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mu-fumi/lj-test.git",
+  "author": "xh <1017182993@qq.com>",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "node ./src/index.js"
+    }
+  },
+  "dependencies": {
+    "eslint": "^7.16.0",
+    "husky": "^4.3.6"
+  }
+}
