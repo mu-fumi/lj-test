@@ -7,7 +7,7 @@
   "license": "MIT",
   "husky": {
     "hooks": {
-      "pre-commit": "node ./src/index.js"
+      "pre-commit": "eslint --ext .js,.vue src && node ./src/index.js"
     }
   },
   "dependencies": {
